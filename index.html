@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Valentine's Day</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Floating Hearts Background -->
+    <canvas id="heartsCanvas"></canvas>
+
+    <!-- Scroll Indicator -->
+    <div class="scroll-indicator" id="scrollIndicator">
+        <div class="scroll-text">Scroll to Explore</div>
+        <div class="scroll-arrow">↓</div>
+    </div>
+
+    <!-- Main Container with Scroll Snap -->
+    <div class="scroll-container">
+        <!-- Section 1: Hero -->
+        <section class="snap-section hero-section">
+            <div class="hero-content fade-in-element">
+                <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExenNnMXIycW1hZ2lnZXI5amJjanVzdDNndDFnaWt0dHRhYXQzcXoyNCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/6g9fN5IYV9Oc8/giphy.gif" 
+                     alt="Valentine's Day Hearts" 
+                     class="hero-gif"
+                     loading="eager">
+                <h1 class="hero-title">Happy Valentines Day!</h1>
+                <p class="hero-subtitle">With Love &lt;3 </p>
+            </div>
+        </section>
+
+                <!-- Section 2: Spotify Embedded Player -->
+        <section class="snap-section footer-section">
+            <div class="section-content fade-in-element">
+                <h2 class="section-title">Spotify Playlist!</h2>
+                <!-- Spotify Embedded Code -->
+                <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/53GhYggTKd4N8CzaSd0j9P?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </div>
+        </section>
+
+
+        <!-- Section 3: Photo Gallery w/ Message -->
+        <section class="snap-section gallery-section">
+            <div class="section-content fade-in-element side-by-side">
+                <div class="gallery-text">
+                    <h2 class="section-title">My Favorites</h2>
+                    <p class="gallery-text">Joke of the Day: <br> Do you have a map? <br> Because I keep getting lost in your eyes. </p>
+                </div>
+
+                <div class="photo-grid">
+                    <div class="photo-card"><img src="/Assets/IMG_3842.jpeg" alt="Moment 1"></div>
+                    <div class="photo-card"><img src="/Assets/IMG_3841.jpeg" alt="Moment 2"></div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Section 4: Blank Filler Section -->
+        <section class="snap-section gallery-section">
+            <div class="section-content fade-in-element side-by-side">
+                <div class="gallery-text">
+                    <h2 class="section-title">For my Ethereal Beauty!</h2>
+                </div>
+
+                <div class="photo-grid">
+                    <div class="photo-card"><img src="/Assets/IMG_3840.jpeg" alt="Moment 1"></div>
+                    <div class="photo-card"><img src="/Assets/IMG_3839.jpeg" alt="Moment 2"></div>
+                </div>
+            </div>
+        </section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
